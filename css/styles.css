@@ -248,14 +248,14 @@ address {
   align-items: center;
   gap: 24px;
 }
-.social-icon {
+.social-link {
   fill: var(--IRIS);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-icon:hover,
-.social-icon:focus {
+.social-link:hover,
+.social-link:focus {
   fill: var(--OCEAN);
 }
 .team-title {
@@ -309,7 +309,7 @@ address {
   color: var(--CLOUD);
   padding: 40px 32px 164px;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   position: absolute;
   top: 0;
   left: 0;
@@ -344,6 +344,10 @@ address {
   color: var(--CLOUD);
   background-color: var(--NAVY-BLUE);
 }
+.footer .container {
+  display: flex;
+  gap: 120px;
+}
 .logo-footer {
   margin-bottom: 16px;
   display: inline-block;
@@ -362,4 +366,22 @@ address {
   width: 264px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+.social-icons-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.social-link-footer {
+  fill: var(--IRIS);
+}
+.social-media-title {
+  color: var(--WHITE);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.social-media-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
