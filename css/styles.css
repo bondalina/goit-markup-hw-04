@@ -142,11 +142,15 @@ address {
     ),
     url("../images/people-office.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1440px;
+  background-position: center center;
+
+  background-size: cover;
   background-color: var(--NAVY-BLUE);
   padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
+
 .hero-title {
   max-width: 496px;
   margin-bottom: 48px;
@@ -169,6 +173,7 @@ address {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
