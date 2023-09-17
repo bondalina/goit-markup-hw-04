@@ -8,6 +8,7 @@
   --CORNFLOWER: #e7e9fc;
   --GREY: rgba(46, 47, 66, 0.7);
   --LIGHT-SLATE: #8e8f99;
+  --GREEN: #31d0aa;
 }
 
 body {
@@ -399,7 +400,7 @@ address {
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color: var(--OCEAN);
+  background-color: var(--GREEN);
 }
 .social-media-title {
   color: var(--WHITE);
