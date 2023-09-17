@@ -234,6 +234,7 @@ address {
 }
 .team-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .team-item {
@@ -253,15 +254,24 @@ address {
   align-items: center;
   gap: 24px;
 }
+.icon {
+  fill: var(--CLOUD);
+}
 .social-link {
-  fill: var(--IRIS);
-  transition-property: fill;
+  width: 40px;
+  height: 40px;
+  background-color: var(--IRIS);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
-  fill: var(--OCEAN);
+  background-color: var(--OCEAN);
 }
 .team-title {
   margin-bottom: 8px;
